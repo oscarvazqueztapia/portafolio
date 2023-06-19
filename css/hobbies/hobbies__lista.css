@@ -1,0 +1,17 @@
+
+.hobbies__lista{
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-between;
+    width: 100vw;
+}
+
+@media screen and (min-width:738px) {
+    
+    .hobbies__lista{
+        font-size: larger;
+    }
+    
+}

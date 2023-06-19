@@ -1,0 +1,52 @@
+.experiencia__imagenes{
+    background: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.experiencia__imagenes__codigoqr{
+    height: 10rem;
+
+}
+.experiencia__imagenes__input{
+    height: 10rem;
+
+}
+.experiencia__imagenes__intrucciones{
+    height: 10rem;
+    width: 20rem;
+
+           }
+.experiencia__imagenes__output {
+    height: 10rem;
+           }
+
+@media screen and (max-width:768px){
+
+    .experiencia__imagenes__codigoqr{
+        display: none;
+    
+    }
+    .experiencia__imagenes__input{
+        width:100vw;
+        height: auto;
+    
+    }
+    .experiencia__imagenes__intrucciones{
+        width: 100vw;
+        height: auto;
+    
+               }
+    .experiencia__imagenes__output {
+        width: 100vw;
+        height: auto;
+               }
+    .experiencia__imagenes{
+        background: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+    }
+      
+}           

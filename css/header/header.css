@@ -1,0 +1,8 @@
+.header{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: rgb(95, 156, 209);
+    font-size: 1em;
+    
+}

@@ -1,0 +1,56 @@
+body{
+    margin: 1px;
+    
+    background: rgb(151, 194, 231);
+
+}
+main{
+    background: aliceblue;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    background: aliceblue;
+    
+}
+h{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: .5em;
+    background-color:  rgb(95, 156, 209);
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: .5em;
+
+}
+a{
+    font-size: 1em;
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+

@@ -1,0 +1,14 @@
+.header__navegacion{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    width: 600px
+}
+@media screen and (max-width: 760px) {
+
+    .header__navegacion{
+       display: none;
+
+    }
+}

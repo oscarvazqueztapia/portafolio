@@ -1,0 +1,9 @@
+
+.formaciones__generales{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    height: fit-content;
+    margin-bottom: 2rem;
+}

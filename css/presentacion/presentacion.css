@@ -1,0 +1,14 @@
+.presentacion{
+    margin-bottom: 1em;
+    margin-top: 1em;
+    
+    background-color: aliceblue;
+}
+
+@media screen and (min-width: 768px) {
+    .presentacion{
+        
+        display: flex;
+        
+    }
+    }
