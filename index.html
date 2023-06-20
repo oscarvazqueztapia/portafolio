@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="css\footer\rodapie__parrafo.css">
     <link rel="stylesheet" href="css\experiencia\experiencia__imagenes.css">
     <link rel="stylesheet" href="css\experiencia\experiencia__botones.css">
+    <link rel="stylesheet" href="css\contacto\advertencia.css">
     </head>
 <body>
     <header class="header">
@@ -181,26 +182,27 @@
                 <img class="contact__imagen" src="assets\contact_image.png" alt="imagen de contacto">
                 </div>
                 <div>
-                    <form class="contacto__formulario">
+                    <form class="contacto__formulario" id="form">
 
                         <div>
-                            <input class="contacto__formulario_item" name="nombre" type="text" placeholder="Ingresa tu nombre" minlength="0" maxlength="50" required>
+                            <input class="contacto__formulario_item" name="nombre" id="nombre" type="text" placeholder="Ingresa tu nombre (requerido)" minlength="0" maxlength="55" required>
                         </div>
 
                         <div>
-                            <input class="contacto__formulario_item" name="email" type="email" placeholder="Ingresa tu email valido" required>
+                            <input class="contacto__formulario_item" name="email" id="email" placeholder="Ingresa tu email valido (requerido)" required>
                         </div>
 
                         <div>                                                           
-                            <input class="contacto__formulario_item" name="asunto" maxlength="50" minlength="0" type="tel" placeholder="Ingresa tu asunto" required >
+                            <input class="contacto__formulario_item" name="asunto" id="asunto"  maxlength="55" minlength="0" type="tel" placeholder="Ingresa tu asunto (requerido)" required >
                         </div>
 
                         <div>
-                            <textarea class="contacto__formulario_item" name="mensaje" type="text" cols="21" rows="10" placeholder="Ingresa tus dudas y comentarios me comunicare contigo a la brevedad posible" minlength="1" maxlength="300" required></textarea>    
+                            <textarea class="contacto__formulario_item" name="mensaje" id="mensaje" type="text" cols="21" rows="10" placeholder="Ingresa tus dudas y comentarios me comunicare contigo a la brevedad posible (requerido)" minlength="1" maxlength="310" required></textarea>    
                         </div>
                         
                         <div>
                             <button class="contacto__formulario__boton" type="submit">Enviar formulario</button>
+                            <P class="advertencia" id="advertencia"></P>
                         </div>
                     </form>    
                 </div>
@@ -222,4 +224,5 @@
          
     </footer>
     </body>
+    <script src="script.js"></script>
 </html>
